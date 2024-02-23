@@ -1,25 +1,12 @@
-import logo from './logo.svg';
-import './App.css';
-
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+function Profile() {
+  return <img src="https://avatars.mds.yandex.net/i?id=71695d9ab51e6611c07a973e01b258b9bf3a4268-10783551-images-thumbs&n=13" alt="Katherine Johnson"/>
 }
 
-export default App;
+export default function Gallery () {
+  return(
+      <section>
+<h1>Кэтрин Джонсон (при рождении — Кэтрин Коулман, в первом замужестве — Кэтрин Коулман Гобл) — американский математик-вычислитель, чьи астродинамические расчёты во время работы в НАСА имели решающее значение для успеха первого и последующих пилотируемых космических полётов США. </h1>
+          <Profile />
+      </section>
+  );
+}
